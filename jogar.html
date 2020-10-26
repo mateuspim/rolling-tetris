@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<title>Rolling Tetris Play Game | Grupo 06</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css"/>
+	<link rel="icon" href="imagens/tetris.png">
+</head>
+<body>
+
+	<header>
+			<div class="topnav">
+				<button class="button"> <img style="width:30px;height:30px" src="imagens/icon_speaker_on.png"/> </button>
+		    <a class="active" href="jogar.html">Jogar</a>
+		    <a href="Instrucoes.html">Instruções</a>
+		    <a href="Recordes.html">Recordes</a>
+	   </div>
+	</header>
+
+		
+		<section class="botoes">
+		<h2>Jogue!</h2>
+		Tamanho
+		(Atualizado no próximo jogo)
+		<br/>
+		<!--<label for="tamanho">(10x20 ou 22x44):</label>-->
+		10x20
+		<input type="range" id="tamanho" min="0" max="1">
+		22x44
+		<br/>
+		<br/>
+		<button class="button">Start</button>
+		<br>
+		<button class="button">Pause</button>
+		<br>
+		<button class="button">Restart</button>
+		<br>
+		<h2>Controles:</h2>
+		<table>
+			<tr><td><img class="controle" src="imagens/less.png" alt="rotesq"/></td><td>Rotação Esquerda</td></tr>
+			<tr><td><img class="controle" src="imagens/greater.png" alt="rotdir"/></td><td>Rotação Direita</td></tr>
+			<tr><td><img class="controle" src="imagens/up.png" alt="downfast"/></td><td>Descida Acelerada</td></tr>
+			<tr><td><img class="controle" src="imagens/down.png" alt="downinsta"/></td><td>Descida Instantânea</td></tr>
+			<tr><td><img class="controle" src="imagens/left.png" alt="movesq"/></td><td>Movimento Esquerda</td></tr>
+			<tr><td><img class="controle" src="imagens/right.png" alt="movdir"/></td><td>Movimento Direita</td></tr>
+		</table>
+
+	</section>
+	<section class="jogo">
+	<img class="displayed" src="imagens/Tetris_Board.png" alt="tetris"/>
+	</section>
+	
+	<footer id="credito">
+		Grupo 6
+	</footer>
+	
+</body>
+</html>
