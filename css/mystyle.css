@@ -9,6 +9,7 @@
 	h2{
 		  text-align:center;
 	}
+
 	h3{
 		text-align: center;
 		margin: 0px;
@@ -23,28 +24,28 @@
 	
 	.topnav {
 		border-radius: 5px;
-	  background-color: #191970;
-	  overflow: hidden;
-	  width: 100%;
+	  	background-color: #191970;
+	  	overflow: hidden;
+	  	width: 100%;
 	}
 	
 	.topnav a {
-	  float: left;
-	  color: #FFFFFF;
-	  text-align: center;
-	  padding: 14px 16px;
-	  text-decoration: none;
-	  font-size: 17px;
+		float: left;
+		color: #FFFFFF;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
 	}
 
 	.topnav a:hover {
-	  background-color: #ddd;
-	  color: black;
+		background-color: #ddd;
+		color: black;
 	}
 
 	.topnav a.active {
-	  background-color: #000000;
-	  color: white;
+		background-color: #000000;
+		color: white;
 	}
 
 	header {
@@ -107,21 +108,22 @@
 		  background-color:#ADD8E6;
 		  clear:both;
 	}
+
 	section.login{
 		background-color:#ADD8E6;
-		  height: fit-content;
-		  align-content: center;
-		  margin: auto;
+		height: fit-content;
+		align-content: center;
+		margin: auto;
 	}
 	
 	section.login label{
-	  font-size: 20px;
-	  margin: 15px;
-	  font-weight: bold;
+		font-size: 20px;
+		margin: 15px;
+		font-weight: bold;
 	}
 	
 	section.login input{
-	  margin: 10px;
+	  	margin: 10px;
 	}
 	
 	p{
